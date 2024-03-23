@@ -10,7 +10,7 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 4. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
 5. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”
 
-To type `β` switch to the LaTeX input method and type `beta` and space. Consult `LaTeX.inputplugin` to see what can be typed.
+To type `β` switch to the LaTeX input method and type `beta` and space (no backslash `\`!). Consult `LaTeX.inputplugin` to see what can be typed.
 
 ## How to customize the symbols
 
