@@ -21,3 +21,5 @@ You may customize the file easily enough, just keep in mind:
 
    * Emacs: use `C-x C-m f`, select `utf-16`, then save the file.
    * Visual Studio Code: the coding is displayed in the status line at the bottom, on the right. You may click on it to select an encoding.
+
+2. The input string and the symbol must be separated by a TAB.
