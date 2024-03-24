@@ -5,7 +5,7 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 ## How to install and use the input method
 
 1. Download the **raw format** of `LaTeX.inputplugin` file found here. You must make sure to get the original file in the UTF-16 format (do not attempt to cut and paste). The best way to do this is to download the gist as a ZIP file (there is a button in the upper-right corner), or to clone it.
-2. Double-click on the file `LaTeX.inputplugin` in Finder. It will process by the operating system and placed into `~/Library/Input Methods` folder. (Do *not* place it there by hand.)
+2. Double-click on the file `LaTeX.inputplugin` in Finder. The OS will process it and place the processed file into `~/Library/Input Methods` folder. (Do *not* place it there by hand.)
 3. Logout and login.
 4. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
 5. Possbily logout and login again if you do not see LaTeX as input source.
