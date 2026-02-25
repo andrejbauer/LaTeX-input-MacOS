@@ -4,30 +4,44 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 
 ## Installation
 
-1. Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository. You must make sure to get the original file in the UTF-16 format, either by cloning the repository to your computer, or clicking on the file in your browser and downloading it in raw form by pressing the download button (it looks like a downward arrow pointing to a tray) in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
+MacOS is quite brittle and finicky when it comes to installing input methods. The following instructions work on Sequoia 15.7.4.
 
-2. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputplugin`. The next step is to remove the Apple security check that would cause your computer to reject it. In the terminal window, run the commands
+### Download the file in raw input format
+
+Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository. You must make sure to get the original file in the UTF-16 format, either by cloning the repository to your computer, or clicking on the file in your browser and downloading it in raw form by pressing the download button (it looks like a downward arrow pointing to a tray) in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
+
+### Installation
+
+1. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputplugin`. If not, change the `cd` command below accordingly. Open a terminal window and run these commands:
 
         cd ~/Downloads
+        mkdir -p ~/Library/Input\ Methods
         xattr -d com.apple.quarantine LaTeX.inputplugin
+        open LaTeX.inputplugin
 
-    If you are afraid of the command line, you can proceed to the next step directly. If the OS complains go through the usual process of enabling the file via “Settings → Privacy & Security” (scroll to the bottom).
+    Explanation of the above code: we switch to the directory where your file is, we optionally create the destination directory `~/Library/Input Methods`, we remove Apple security check that prevents the file from being open, and then we open the file.
 
-3. Double-click on the file `LaTeX.inputplugin` in Finder. It will look like nothing happened, but with luck MacOS registered it.
+    If all went well, the file `LaTeX.inputplugin` has appeared in `~/Library/Input\ Methods`, which you can check by running
 
-4. Logout and login.
+        ls ~/Library/Input\ Methods
 
-5. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
+    Do **not** attempt to place the file in `~/Library/Input Methods` by hand.
 
-5. Possbily logout and login again if you do not see LaTeX as input source.
+2. Logout and login. This will cause MacOS to recognize the new input method.
 
-6. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”
+3. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
+
+4. Possbily logout and login again if you do not see LaTeX as input source.
+
+5. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”
+
+## Usage
 
 To type `β` switch to the LaTeX input method and type `beta` and space (no backslash `\`). If you are in the LaTeX input method but want to type ordinary text, type it and press Enter.
 
 Consult `LaTeX.inputplugin` to see what can be typed.
 
-## How to customize the symbols
+# Customization
 
 You may customize the file easily enough, just keep in mind:
 
