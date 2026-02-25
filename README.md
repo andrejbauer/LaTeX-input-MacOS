@@ -37,7 +37,7 @@ MacOS is quite brittle and finicky when it comes to installing input methods. Th
 
 4. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
 
-5. Possbily logout and login again if you do not see LaTeX as input source.
+5. Possibily logout and login again if you do not see LaTeX as input source.
 
 6. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”.
    The default shortcut is often “Control-Space bar”, which conflicts with Emacs `set-mark-command`. I have it set to “Option–Command-Space”.
