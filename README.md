@@ -37,9 +37,12 @@ Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file f
 
 ## Usage
 
-To type `β` switch to the LaTeX input method and type `beta` and space (no backslash `\`). If you are in the LaTeX input method but want to type ordinary text, type it and press Enter.
+To type `β` switch to the LaTeX input method and type `beta` followed by space (no backslash `\`).
 
-Consult `LaTeX.inputplugin` to see what can be typed.
+If you are in the LaTeX input method but want to type ordinary text, type it and press Enter. For example, to type `α ≤ floor 𝒜` type `alpha SPACE SPACE le SPACE SPACE floor ENTER SPACE scrA SPACE`.
+
+Consult `LaTeX.inputplugin` to see which symbols are available and what their names are. We mostly follow LaTeX naming conventions, except that upper-case is indicated by repeated first letter, for instance `xi` gives `ξ` and `xxi` gives `Ξ`.
+This is needed as MacOS input methods do not distinguish case.
 
 # Customization
 
