@@ -6,7 +6,7 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 
 MacOS is quite brittle and finicky when it comes to installing input methods. The following instructions work on Sequoia 15.7.4.
 
-1. **Download*** the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository by one of these methods:
+1. **Download** the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository by one of these methods:
 
     * clone the repository to your computer, or
     * click on [`LaTeX.inputplugin`](./LaTeX.inputplugin) and download it in raw form by pressing the download button (it looks like a downward arrow pointing to a tray) in the upper right corner above the file.
