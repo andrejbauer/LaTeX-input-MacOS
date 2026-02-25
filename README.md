@@ -11,7 +11,7 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
         cd ~/Downloads
         xattr -d com.apple.quarantine LaTeX.inputplugin
 
-  If you are afraid of the command line, you can proceed to the next step directly. If the OS complains go through the usual process of enabling the file via “Settings → Privacy & Security” (scroll to the bottom).
+   If you are afraid of the command line, you can proceed to the next step directly. If the OS complains go through the usual process of enabling the file via “Settings → Privacy & Security” (scroll to the bottom).
 
 3. Double-click on the file `LaTeX.inputplugin` in Finder. It will look like nothing happened, but with luck MacOS registered it.
 
