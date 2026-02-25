@@ -41,14 +41,18 @@ MacOS is quite brittle and finicky when it comes to installing input methods. Th
 
 6. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”.
    The default shortcut is often “Control-Space bar”, which conflicts with Emacs `set-mark-command`. I have it set to “Option–Command-Space”.
-   Note that “Select next input method“ conveniently toggles between the last two chosen ones when pressed quickly.
-   If you hold it down, you get a complete list of all input methods to select from.
 
 ## Usage
 
-To type `β` switch to the LaTeX input method and type `beta` followed by space (no backslash `\`).
+Type a symbol, you must first switch to the LaTeX input mode, using a shortcut that you set up.
+Note that “Select next input method“ conveniently toggles between the last two chosen ones when pressed once.
+If you press it repeatedly several times, you get a complete list of all input methods to select from.
 
-If you are in the LaTeX input method but want to type ordinary text, type it and press Enter. For example, to type `α ≤ floor 𝒜` type `alpha SPACE SPACE le SPACE SPACE floor ENTER SPACE scrA SPACE`.
+For `β` to appear, type `beta` followed by space (no backslash `\`).
+
+If you are in the LaTeX input method but want to type ordinary text, type it and press Enter. For example, to type `α ≤ floor 𝒜` type
+
+    alpha SPACE SPACE le SPACE SPACE floor ENTER SPACE scrA SPACE
 
 Consult `LaTeX.inputplugin` to see which symbols are available and what their names are. We mostly follow LaTeX naming conventions, except that upper-case is indicated by repeated first letter, for instance `xi` gives `ξ` and `xxi` gives `Ξ`.
 This is needed as MacOS input methods do not distinguish case.
