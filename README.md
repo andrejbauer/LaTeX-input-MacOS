@@ -24,7 +24,7 @@ MacOS is quite brittle and finicky when it comes to installing input methods. Th
     
     1. `cd ~/Downloads` – switch to the directory where your file is
     2. `mkdir -p ~/Library/Input\ Methods` – optionally create the destination directory `~/Library/Input Methods`
-    3. `xattr -d com.apple.quarantine LaTeX.inputplugin` – remove Apple security check that prevents the file from being open, and then we open the file; this command is not needed if you cloned the repository, only if you downloaded the file with your browser. Do not panic if it fails.
+    3. `xattr -d com.apple.quarantine LaTeX.inputplugin` – remove Apple security check that prevents the file from being open; this command is not needed if you cloned the repository, only if you downloaded the file with your browser. Do not panic if it fails.
     4. `open LaTeX.inputplugin` – activate the file
 
     If all went well, the file `LaTeX.inputplugin` has appeared in `~/Library/Input\ Methods`, which you can check by running
