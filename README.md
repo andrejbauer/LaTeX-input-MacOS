@@ -4,14 +4,14 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 
 ## Installation
 
-1. Download the **raw format** of `LaTeX.inputplugin` file found here. You must make sure to get the original file in the UTF-16 format. You can clone the repository to your computer, or click on the file in your browser and download it in raw form by pressing the download button in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
+1. Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository. You must make sure to get the original file in the UTF-16 format, either by cloning the repository to your computer, or clicking on the file in your browser and downloading it in raw form by pressing the download button in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
 
-2. Let us assume you downlaoded the file at `~/Downloads/LaTeX.inputlplugin`. The next step is to remove the Apple security check that would cause your computer to reject it. In the terminal window, run the command
+2. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputlplugin`. The next step is to remove the Apple security check that would cause your computer to reject it. In the terminal window, run the command
 
-    cd ~/Downloads
-    xattr -d com.apple.quarantine LaTeX.inputplugin
+        cd ~/Downloads
+        xattr -d com.apple.quarantine LaTeX.inputplugin
 
-If you are afraid of the command line, you can proceed to the next step directly. If the OS complains go through the usual process of enabling the file via “Settings → Privacy & Security” (scroll to the bottom).
+  If you are afraid of the command line, you can proceed to the next step directly. If the OS complains go through the usual process of enabling the file via “Settings → Privacy & Security” (scroll to the bottom).
 
 3. Double-click on the file `LaTeX.inputplugin` in Finder. It will look like nothing happened, but with luck MacOS registered it.
 
