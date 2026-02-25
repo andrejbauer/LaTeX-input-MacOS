@@ -40,7 +40,7 @@ MacOS is quite brittle and finicky when it comes to installing input methods. Th
 5. Possbily logout and login again if you do not see LaTeX as input source.
 
 6. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”.
-   The default shortcut is often “Control-Space bar”, which conflicts with Emacs `set-mark-command`. I have it set to `Option–Command-Space`.
+   The default shortcut is often “Control-Space bar”, which conflicts with Emacs `set-mark-command`. I have it set to “Option–Command-Space”.
    Also note that you just need a single shortcut because “Select next input method“ toggles between the last two chosen ones when pressed quickly.
    If you hold it down, you get a complete list of all input methods to select from.
 
