@@ -1,6 +1,6 @@
 # LaTeX input method for MacOS
 
-This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-use-your-own-input-source-on-mac-mchlp2866/mac) for typing math symbols on MacOS using LaTeX macro names.
+A [MacOS input method](https://support.apple.com/guide/mac-help/create-and-use-your-own-input-source-on-mac-mchlp2866/mac) for typing UTF8 math symbols on MacOS using LaTeX macro names.
 
 ## Installation
 
