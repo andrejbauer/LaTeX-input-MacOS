@@ -4,9 +4,9 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 
 ## Installation
 
-1. Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository. You must make sure to get the original file in the UTF-16 format, either by cloning the repository to your computer, or clicking on the file in your browser and downloading it in raw form by pressing the download button in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
+1. Download the **raw format** of `[LaTeX.inputplugin](./LaTeX.inputplugin)` file found in this repository. You must make sure to get the original file in the UTF-16 format, either by cloning the repository to your computer, or clicking on the file in your browser and downloading it in raw form by pressing the download button in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
 
-2. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputlplugin`. The next step is to remove the Apple security check that would cause your computer to reject it. In the terminal window, run the command
+2. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputplugin`. The next step is to remove the Apple security check that would cause your computer to reject it. In the terminal window, run the commands
 
         cd ~/Downloads
         xattr -d com.apple.quarantine LaTeX.inputplugin
