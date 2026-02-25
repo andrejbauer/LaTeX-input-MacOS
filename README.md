@@ -4,7 +4,7 @@ A [MacOS input method](https://support.apple.com/guide/mac-help/create-and-use-y
 
 ## Installation
 
-MacOS is quite brittle and finicky when it comes to installing input methods. The following instructions work on Sequoia 15.7.4.
+MacOS is quite brittle and finicky when it comes to installing input methods. The following instructions work on Sequoia 15.7.4 and Tahoe 26.2.
 
 1. **Download** the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository by one of these methods:
 
