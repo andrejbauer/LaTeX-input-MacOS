@@ -6,13 +6,14 @@ This [MacOS input method](https://support.apple.com/guide/mac-help/create-and-us
 
 MacOS is quite brittle and finicky when it comes to installing input methods. The following instructions work on Sequoia 15.7.4.
 
-### Download the file in raw input format
+1. **Download*** the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository by one of these methods:
 
-Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file found in this repository. You must make sure to get the original file in the UTF-16 format, either by cloning the repository to your computer, or clicking on the file in your browser and downloading it in raw form by pressing the download button (it looks like a downward arrow pointing to a tray) in the upper right corner above the file. **Do not attempt to cut and paste**, it will not work.
+    * clone the repository to your computer, or
+    * click on [`LaTeX.inputplugin`](./LaTeX.inputplugin) and download it in raw form by pressing the download button (it looks like a downward arrow pointing to a tray) in the upper right corner above the file.
+    
+    You must make sure to get the original file in the UTF-16 format. **Do not attempt to cut and paste**, it will not work.
 
-### Installation
-
-1. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputplugin`. If not, change the `cd` command below accordingly. Open a terminal window and run these commands:
+2. Let us assume you downloaded the file at `~/Downloads/LaTeX.inputplugin`. If not, change the `cd` command below accordingly. Open a terminal window and run these commands:
 
         cd ~/Downloads
         mkdir -p ~/Library/Input\ Methods
@@ -27,13 +28,13 @@ Download the **raw format** of [`LaTeX.inputplugin`](./LaTeX.inputplugin) file f
 
     Do **not** attempt to place the file in `~/Library/Input Methods` by hand.
 
-2. Logout and login. This will cause MacOS to recognize the new input method.
+3. Logout and login. This will cause MacOS to recognize the new input method.
 
-3. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
+4. Go to “System settings → Keyboard → Text input → Edit…”, then press `+` in lower-left corner to add a new input method. Find “LaTeX” and add it to your input sources (it might be a bit hard to find, it tends to hide under Chinese, Simplified).
 
-4. Possbily logout and login again if you do not see LaTeX as input source.
+5. Possbily logout and login again if you do not see LaTeX as input source.
 
-5. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”
+6. Set up a convenient keyboard shortcut for switching between keyboards under “System settings → Keyboard → Keyboard shortcuts → Input Source”
 
 ## Usage
 
@@ -44,7 +45,7 @@ If you are in the LaTeX input method but want to type ordinary text, type it and
 Consult `LaTeX.inputplugin` to see which symbols are available and what their names are. We mostly follow LaTeX naming conventions, except that upper-case is indicated by repeated first letter, for instance `xi` gives `ξ` and `xxi` gives `Ξ`.
 This is needed as MacOS input methods do not distinguish case.
 
-# Customization
+## Customization
 
 You may customize the file easily enough, just keep in mind:
 
